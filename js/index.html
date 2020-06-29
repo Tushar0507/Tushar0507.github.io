@@ -162,7 +162,7 @@
        //console.log(randomWords.join(""));
        msg.innerHTML = `Guess the Word : ${randomWords}`;     
        }else{
-          let tempWord = Guess.value;
+          let tempWord = Guess.value.toLowerCase();
           if(tempWord === newWords){
           //console.log(`correct`);
             play = false;
